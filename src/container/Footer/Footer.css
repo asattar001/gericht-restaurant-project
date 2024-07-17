@@ -1,0 +1,56 @@
+.app__footer {
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+}
+
+.app__footer__contact,
+.app__footer__gericht,
+.app__footer__working-hours {
+  text-align: center;
+}
+
+.app__footer__contact,
+.app__footer__working-hours {
+  margin-top: 0.5rem;
+}
+
+.app__footer__gericht-logo2 img {
+  height: 40px;
+}
+
+#footer_text {
+  font-size: 14px;
+  color: var(--color-grey);
+}
+
+.app__footer_icons_container {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.app__footer_icons {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+
+#icon {
+  color: var(--color-grey);
+  transition: 0.5s ease;
+}
+#icon:hover {
+  color: var(--color-golden);
+}
+
+.footer__bg {
+  background-color: var(--color-black);
+  /* border: 1px solid var(--color-golden); */
+}
